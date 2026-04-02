@@ -1,0 +1,31 @@
+# --- Python & Environment ---
+.venv/
+__pycache__/
+*.pyc
+.python-version
+uv.lock
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Data & Models ---
+data/raw/*
+data/processed/*
+models/*
+!models/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- MLOps Tools ---
+mlruns/
+.mlflow/
+outputs/
+
+# --- IDE & OS ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Environment Variables ---
+.env
